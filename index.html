@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>School Attendence web app</title>
+        <link rel="stylesheet" type="text/css" href="style.css"> <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h3 style="margin-top: 20px; margin-bottom: 20px;">LIST OF THE STUDENTS IN MY CLASS</h3>
+            <div>
+                <span>1</span>
+                <input type="text" placeholder="Name of the student" id="nameofthestudent_1">
+                <br>
+                <span>2</span>
+                <input type="text" placeholder="Name of the student" id="nameofthestudent_2">
+                <br>
+                <span>3</span>
+                <input type="text" placeholder="Name of the student" id="nameofthestudent_3">
+                <br>
+                <span>4</span>
+                <input type="text" placeholder="Name of the student" id="nameofthestudent_4">
+                <br>
+            </div>
+
+            <button onclick="submit()" id="submit_button">Submit</button>
+            <div id="display_name_with_commas"></div>
+            <hr>
+
+            <div id="display_name_without_commas"></div>
+            <button onclick="sorting()" id="sort_button">Sort</button>
+
+            <br>
+            <button onclick="new_update()">New Update</button>
+        </center>
+        <script type="text/javascript"></script>
+    </body>
+</html>
